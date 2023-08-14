@@ -1,3 +1,24 @@
+				Git
 1.what is git
 Git is a version control system that lets you manage and keep track of your source code history.
-2.Difference between centralized
+2.Difference between Centralized version control system [cvcs] and Distributed version control system [Dvcs]
+Cvcs is sub version - source code can put in single place
+Dvcs is github  - source code can put in multiple place
+
+3. git stages
+STAGES OF GIT:
+1. WORKING DIRECTORY: we write the source code.
+2. STAGING AREA: We can track the code. is also called as draft space.
+3. REPOSITORY: we can store our tracked code. (.git is your local repo)
+4. what is merge
+Adding  files in one branch to another branch. Is called merge
+5. git Merge vs Rebase
+Merge  shows list of files but Rebase will not show
+Rebase show branch 
+Merge shows history
+6. what is github ?
+its a place where we can store code on internet.
+everyone can access the code.
+daily we can do push and pull activites.
+
+
