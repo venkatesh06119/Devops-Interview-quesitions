@@ -1,24 +1,105 @@
-				Git
+ 						Git
+
 1.what is git
 Git is a version control system that lets you manage and keep track of your source code history.
-2.Difference between Centralized version control system [cvcs] and Distributed version control system [Dvcs]
+2.difference between centralized version control system [cvcs] and distributed version control system [dvcs]
 Cvcs is sub version - source code can put in single place
 Dvcs is github  - source code can put in multiple place
 
-3. git stages
-STAGES OF GIT:
-1. WORKING DIRECTORY: we write the source code.
-2. STAGING AREA: We can track the code. is also called as draft space.
-3. REPOSITORY: we can store our tracked code. (.git is your local repo)
-4. what is merge
+3. Git stages
+Stages of git:
+1. Working directory: we write the source code.
+2. Staging area: we can track the code. Is also called as draft space.
+3. Repository: we can store our tracked code. (.git is your local repo)
+4. What is merge
 Adding  files in one branch to another branch. Is called merge
-5. git Merge vs Rebase
-Merge  shows list of files but Rebase will not show
-Rebase show branch 
+5. Git merge vs rebase
+Merge  shows list of files but rebase will not show
+Rebase show branch
 Merge shows history
-6. what is github ?
-its a place where we can store code on internet.
-everyone can access the code.
-daily we can do push and pull activites.
+6. What is github ?
+Its a place where we can store code on internet.
+Everyone can access the code.
+Daily we can do push and pull activites.
+7. What is local repository & central repository ?  Bare and non-bare ?
+Local repository :  empty git repository [ .git]      command is -  git init
+Central repository : github
+Bare : empty
+Non-bare : which is having code
+8. What is merge conflicts ?
+When we merge 2 different branches with common files with different content conflicts will occur.
+We need to resolve these conficts   manually.
+9. Whis id git clone & git fork ? Clone & pull ?
+Git clone: getting the repository to local
+Git fork: getting the repository to github
+Clone: ropositoy
+Pull : file
+10. What is fetch vs pull ?
+Fetch : to show the difference in files
+Pull : to get the difference in files
+11. What is cherry-pick ?
+To get specific files to one branch to another branch
+12. What is git stash ? Difference between pop and clear ?
+Git stash : used to hide the files which are not committed.
+Git stash pop	: to remove last stash
+Git stash clear	: to remove all stash
+13. What is git revert ?
+Git revert: to undo the merging blw branches.
+13. What is git restore?
+Git restore: used to undo the tracked files.
 
+======== ** My – Space ** ================== Git ========
 
+14. Which language is used in git?
+
+Git is written in c, reducing the overhead of runtimes associated with higher-level languages.
+15. What is the purpose of 'git config'?
+The 'git config' is a great method to configure your choice for the git installation. Using this command, you can describe the repository behavior, preferences, and user information.
+
+16. What does 'hooks' comprise of in git?
+Git hooks are scripts that run automatically every time a particular event occurs in a git repository
+Client-side hooks: these hooks are executed on the local machine. They are triggered by events such as committing, pushing, and merging.
+Server-side hooks: these hooks are executed on the remote server. They are triggered by events such as receiving pushed commits
+
+17. What is the distinction between git and github?
+
+I . Git is a correction control framework, a tool to deal with your source code history.
+
+Ii . Github is a hosting function for git storehouses.
+
+18. Describing branching systems you have utilized?
+
+Gitflow: gitflow is a branching model that is designed for larger projects. It has four main branches:
+Master: the master branch is the main development branch. It should only contain production-ready code.
+Develop: the develop branch is the main branch where new features are developed.
+Feature: feature branches are used to develop new features. They are created from the develop branch and merged back into the develop branch when the feature is complete.
+Hotfix: hotfix branches are used to fix critical bugs in production. They are created from the master branch and merged back into the master branch as soon as possible.
+Github flow: github flow is a simpler branching model that is designed for smaller projects. It has two main branches:
+Main: the main branch is the main development branch. It should only contain production-ready code.
+Feature: feature branches are used to develop new features. They are created from the main branch and merged back into the main branch when the feature is complete.
+
+19. Mention the various git repository hosting functions.
+The following are the git repository hosting functions:
+
+Pikacode
+Visual studio online
+Github
+Gitenterprise
+Sourceforge.net
+
+20. Mention some of the best graphical git customers for linux?
+Some of the best git customer for linux is
+
+Git cola
+Smart git
+Git-g
+Git gui
+Giggle
+Qgit
+
+21. What is subgit? Why use it?
+Subgit is a tool for a smooth, stress-free svn to git migration.
+
+=================================**  End-git ** ================================================
+
+	
